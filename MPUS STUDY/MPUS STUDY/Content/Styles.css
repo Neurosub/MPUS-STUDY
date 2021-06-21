@@ -1,0 +1,215 @@
+﻿body {
+    background: #20202A;
+    font-family: 'Century Gothic';
+}
+
+.Error {
+    font-size: 18px;
+    color: #cc0000;
+    font-weight: 400;
+}
+
+.sign-form {
+    max-width: 455px;
+    padding: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.title {
+    color: #eeebf5;
+}
+
+a {
+    color: #eeebf5;
+    font-size: 24px;
+}
+
+    a:hover {
+        color: #eeebf5;
+        text-decoration: underline;
+    }
+
+.lblTitle {
+    color: #eeebf5;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.button {
+    color: #eeebf5;
+    background: #6c43af;
+    border: none;
+    transition: 0.5s;
+    font-size: 26px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+}
+
+    .button:hover {
+        background: #441f81;
+        transition: 0.5s;
+    }
+
+.reg-form {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 100px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.lblTitle-Reg {
+    color: #eeebf5;
+    font-size: 26px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.form-control {
+    border-radius: unset;
+}
+
+.form-controlDisabled {
+    border-radius: unset;
+    background: #545A8A;
+}
+
+.navbar {
+    background: #171723;
+}
+
+.button-Reserv {
+    color: #eeebf5;
+    background: #6c43af;
+    border: none;
+    transition: 0.5s;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-right: 25px;
+    width: 130px;
+}
+
+    .button-Reserv:hover {
+        background: #441f81;
+        transition: 0.5s;
+    }
+
+.nav-link {
+    font-size: 18px;
+    color: #eeebf5;
+    transition: 0.5s;
+}
+
+    .nav-link:hover {
+        color: #cdccd0;
+        transition: 0.5s;
+    }
+
+.AccTitle {
+    color: #eeebf5;
+    font-size: 24px;
+}
+
+.Account {
+    width: 90%;
+    border-radius: unset;
+    box-shadow: 0 0 10px 5px rgba(156, 198, 238, 0.25);
+    color: #000000;
+}
+
+.AccountDisabled {
+    width: 90%;
+    border-radius: unset;
+    background: #545A8A;
+    color: #eeebf5;
+}
+
+.AccountPage {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .AccountPage > .container > .row {
+        margin-bottom: 20px;
+    }
+
+.Search {
+    margin-top: 40px;
+    width: 300px;
+    height: 40px;
+    border: #fff solid;
+}
+
+    .Search:focus {
+        outline: none;
+    }
+
+.table {
+    background: #ffffff;
+}
+
+    .table tr {
+        text-align: center;
+    }
+
+    .table a {
+        color: #007bff;
+        font-size: 18px;
+    }
+
+/*Orders pages*/
+.List {
+    overflow-y: scroll;
+    max-width: 1020px;
+    height: 535px;
+    border: 3px solid #eeebf5;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px 30px;
+    vertical-align: middle;
+}
+
+.Order-block {
+    border-radius: 10px;
+    border: 3px solid #31335b;
+    width: 950px;
+    height: 115px;
+    padding: 5px 20px;
+    margin-bottom: 40px;
+}
+
+.Order-Text {
+    color: #eeebf5;
+    font-size: 24px;
+}
+
+.Order-block-data {
+    float: left;
+}
+
+.Order-block-button {
+    float: right;
+    margin-top: 15px;
+}
+
+.btDetails {
+    height: 60px;
+    width: 410px;
+    color: #eeebf5;
+    font-size: 26px;
+    background: #6c43af;
+    border: none;
+}
+
+    .btDetails:hover {
+        background: #441f81;
+        transition: 0.5s;
+    }
+
+.OrdersTitle {
+    text-align: center;
+}
